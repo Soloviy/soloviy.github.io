@@ -1,0 +1,24 @@
+.reverse ol {
+  display: flex;
+  flex-direction: column-reverse;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+  counter-reset: li; 
+}
+.reverse ol li:before {
+  counter-increment: li;
+  content: counters(li,".") ". ";
+}
+.list{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
