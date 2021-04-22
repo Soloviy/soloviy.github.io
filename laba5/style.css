@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-block {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 15px auto;
+  position: relative;
+}
+.house {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  bottom: 0;
+  left:25%;
+}
+.roof {
+    width: 0;
+    height: 0;
+    left:15%;
+    margin-top: 50px;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+}
+.chimney {
+  width: 20px;
+  height: 60px;
+  left:30%;
+  margin-top: 60px;
+  background: black;
+}
+.door {
+  z-index: 1;
+  width: 60px;
+  height: 90px;
+  left:50%;
+  bottom: 0;
+  background: brown;
+}
+.window {
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  left:30%;
+  bottom: 25px;
+  background: cyan;
+}
+.door, .window, .house, .chimney, .roof{
+  position:absolute;
+}
+.waterworld{
+  background-color: #35dbde;
+  width: 900px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+}
+.water{
+  z-index: 3;
+  width:100%;
+  bottom: 0;
+  margin-bottom: -1px;
+}
+.wooden-ship{
+  z-index: 2;
+  width: 100%;
+  bottom: 10%;
+  left:15%;
+  height: 150px;
+}
+.world{
+  width: 100%;
+  height: 500px;
+  margin-top:10%;
+}
+.clouds{
+  width: 100%;
+  height: 150px;
+  left:15%;
+  margin-top: -10px;
+}
+.clouds, .water, .wooden-ship, .world{
+  display: block;
+  position: absolute;
+}
+
+.fullwrap{
+  width: 800px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 15px auto;
+}
+.header, .wrap, .footer{
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 95%;
+}
+.header{
+  height: 100px;
+}
+.wrap{
+  height: 400px;
+}
+.footer{
+  height: 150px;
+}
+.wrap div{
+  height: 95%;
+  margin: 10px;
+  border: 1px solid black;
+  float: left;
+}
+.main3{
+  width: 55%;
+}
+.sidebar{
+  width: 39%;
+}
+
+.main, .main2{
+  width: 300px;
+  height: 440px;
+  border: 3px solid #23a18e;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+.number{
+  width: 100%-20px;
+  margin: 15px -1px 10px;
+  padding: 10px 10px 10px 0;
+  text-align: right;
+  color: #fff;
+  font-size: 20px;
+  background-color: #23a18e;
+}
+.input input{
+  width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto 0 auto;
+  text-align:right;
+  font-size: 22px;
+  border: 3px solid #23a18e;
+  color: #23a18e;
+}
+.button{
+  width: 100px;
+  height: 30px;
+  background-color: #23a18e;
+  margin: 12px 10px 10px auto;
+}
+.item{
+  border: 3px solid #23a18e;
+  border-radius: 5px;
+  color: #23a18e;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 14px;
+  float: left;
+}
+
+.main2{
+  position: relative;
+}
+.main2 div{
+  position: absolute;
+}
+.number2{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: right;
+  font-size: 20px;
+  background-color: #23a18e;
+  top: 4%;
+  color: #fff;
+}
+.number2 p{
+  margin-right: 10px;
+}
+.input2{
+  top: 21%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.input2 input{
+  width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  text-align:right;
+  font-size: 22px;
+  border: 3px solid #23a18e;
+  color: #23a18e;
+} 
+.button2{
+  width: 100px;
+  height: 30px;
+  right: 3%;
+  top: 27%;
+  background-color: #23a18e;
+}
+.item2{
+  border: 3px solid #23a18e;
+  border-radius: 5px;
+  color: #23a18e;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  text-align: center;
+}
+.item_seven{
+  top: 37%;
+  left: 5%;
+}
+.item_eight{
+  top: 37%;
+  left: 30%;
+}
+.item_nine{
+  top: 37%;
+  left: 54%;
+}
+.item_plus{
+  top: 37%;
+  left: 78%;
+}
+.item_four{
+  top: 53%;
+  left: 5%;
+}
+.item_five{
+  top: 53%;
+  left: 30%;
+}
+.item_six{
+  top: 53%;
+  left: 54%;
+}
+.item_minus{
+  top: 53%;
+  left: 78%;
+}
+.item_one{
+  top: 69%;
+  left: 5%;
+}
+.item_two{
+  top: 69%;
+  left: 30%;
+}
+.item_three{
+  top: 69%;
+  left: 54%;
+}
+.item_division{
+  top: 69%;
+  left: 78%;
+}
+.item_coma{
+  top: 85%;
+  left: 5%;
+}
+.item_zero{
+  top: 85%;
+  left: 30%;
+}
+.item_equal{
+  top: 85%;
+  left: 54%;
+}
+.item_multiplication{
+  top: 85%;
+  left: 78%;
+}
+
+.item:hover, .item2:hover{
+  background-color: #23a18e;
+  font-weight: 700;
+  color: #fff;
+}
+.item:active, .item2:active{
+  background-color: #fff;
+  color: #23a18e;
+}
+.button:active, .button2:active{
+  background-color: #408f8d;
+}
+
+
+
+

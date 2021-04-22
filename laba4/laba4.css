@@ -1,0 +1,184 @@
+.main .item1 .myblock{
+   margin: 15px auto; 
+}
+.item1 *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.myblock{
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 30px;
+}
+.lemon{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: url(https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png);
+    background-size: contain;
+    background-position: 50%;
+    border-radius: 5px;
+    float: left;
+}
+.about-lemon h3{
+    text-align: center;
+    padding: 10px 0;
+}
+.about-lemon p{
+    font-size: 12px;
+    line-height: 150%;
+    margin: 20px 0;
+}
+.item2 *{
+    font-family: 'Exo 2', sans-serif;
+}
+.item2 .wrap {
+    width: 350px;
+    margin: 15px auto;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    border-radius:4px;
+}
+.item2 .wrap h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item2 .wrap img{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 300px;
+    box-shadow: 0 0 10px #454545;
+}
+.item2 .wrap p{
+    font-size: 13px;
+    line-height: 150%;
+    margin: 5px 0;
+    padding: 5px;
+}
+.item2 .info{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+.item2 .side {
+    font-weight: 700;
+    width: 180px;
+    display: inline-block;
+}
+.item2 .wrap p:nth-child(even) {
+    background: #ececec;
+}
+.item3 li{
+    text-align: center;
+    list-style: none;
+}
+#id1::before {
+  content: "\2660";
+  padding-right: 10px;
+  color: black;
+}
+#id2::before {
+  content: "\2663";
+  padding-right: 10px;
+  color: black;
+}
+#id3::before {
+  content: "\2665";
+  padding-right: 10px;
+  color: red;
+}
+#id4::before {
+  content: "\2666";
+  padding-right: 10px;
+  color: red;
+}
+pre{
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    white-space: pre-line;
+    margin: 15px 0;
+}
+.links {
+    width: 80%;
+    background: #F6967D;
+    margin: 15px auto;
+}
+.links a {
+ color: #FFFDEB;
+ display: inline-block;
+ border-right: 1px solid #B62025;
+ padding: 5px 10px;
+}
+ .links a:last-child {
+  border-right: none;
+ }
+
+ .item6 .title{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+ }
+ .title span{
+    position: relative;
+    text-transform: uppercase;
+ }
+ .title span::before, .title span::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 4px solid;
+    width: 800px;
+    margin: 0 10px;
+ }
+ .title span::before{
+    left:100%;
+ }
+ .title span::after{
+    right:100%;
+ }
+
+ .item7 .battery{
+    
+ }
+ .item7 .battery {
+    width: 150px; 
+    height: 50px; 
+    border: 4px solid #000; 
+    margin: 15px auto;
+    position: relative; 
+   }
+   .battery::before, .battery::after {
+    content: '';
+    position: absolute;
+   }
+   .battery::after { 
+    width: 10px;
+    height: 20px;
+    background: #000;
+    right: -10px; 
+    top: 15px;
+   }
+   .battery::before { 
+    height: 100%; 
+   }
+   .top::before { 
+    width: 33%;
+    background: #ED1C24;
+   }
+   .middle::before { 
+    width: 66%;
+    background: #FFC60B;
+   }
+   .bottom::before { 
+    width: 100%;
+    background: #00A055;
+    }
+ 
+
