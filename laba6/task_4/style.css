@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #332828;
+}
+.wrap{
+	width: 940px;
+	height: 390px;
+	background-color: #fff;
+	margin: 25px auto;
+	position: relative;
+}
+.menu{
+	position: absolute;
+	width: 175px;
+	height: 52px;
+	right: 0;
+	bottom: -65px;
+	background-color: #000;
+}
+.menu > a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	line-height: 52px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.menu > a:hover{
+	background-color: #fff;
+	color: #000;
+	transition: .3s;
+}
+.background, .content{
+	float: left;
+}
+.background{
+	width: 35%;
+	height: 100%;	
+	background-image: url(images/italian_burger.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+}
+.burger{
+	position: absolute;
+	width: 100%;
+	height: 54%;
+	background-color: #000;
+	bottom: 7%;
+	left: -5px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 150%;
+	display: flex;              
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;
+}
+.burger > .burger_name{
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 80%;
+}
+.burger > .burger_price{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.burger_price > strong{
+	color: yellow;	
+}
+.content{
+	width: 65%;
+	height: 100%;	
+	background-color: #fff;
+	position: relative;
+}
+.content > p{
+	margin: 35px 0 30px 0;
+	font-size: 20px;
+	text-align: center;
+}
+.block{
+	position: relative;
+	width: 200px;
+	height: 80px;
+	margin-left: 70px;
+	margin-bottom: 5px;	
+	border-bottom: 2px solid #d5d5d5;
+	float: left;
+	display: flex;              
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;
+}
+.block::before{
+	position: absolute;
+	content: "\2666";
+    color: #d5d5d5;
+    left: 45%;
+    bottom: -18px;
+    font-size: 30px;
+}
+.name{
+	font-size: 20px;
+	font-weight: 500;
+}
+.price{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #999999;
+}
+
+
+
+
