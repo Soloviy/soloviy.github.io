@@ -103,11 +103,11 @@ img{
 	font-size: 18pt;
 	background-color:rgba(0,0,0,.1);
 }
+
 .portfolio{
 	width: 700px;
 	height: 350px;
 	border: 3px dashed black;
-	padding: 85px;
 	margin: 150px 30px;
 	text-align: center;
 	font-size: 18pt;
@@ -122,7 +122,6 @@ img{
 	padding: 0;
 	width: 210px;
 	border: 1px solid MediumVioletRed;
-	text-align: center;
 	margin: auto;
 }
 .nav .nav-item{
