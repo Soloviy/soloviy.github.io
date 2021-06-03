@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 0 70px 0;
+}
+.wrap{
+	width: 980px;
+	height: 450px;
+	border: 1px solid #d3d3d3;
+	margin: 0 auto;
+	position: relative;
+}
+.wrap:after,.wrap:before{
+	content: '<';
+	text-align: center;
+	line-height: 30px;
+	color: #d3d3d3;
+	position: absolute;	
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border: 2px solid #d3d3d3;
+	border-radius: 50%;
+	top: 78px;
+	z-index: 1;
+}
+.wrap:before{
+	left: -18px;
+}
+.wrap:after{
+	right: -18px;
+	content: '>';
+}
+.block{
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #d3d3d3;
+}
+.block:last-child{
+	border-right: 0 solid #d3d3d3;	
+}
+.container{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.category{
+	width: 100%;
+	height: 95px;
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 17px;
+	color: #998782;
+	text-transform: uppercase;
+	line-height: 95px;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.image{
+	width: 35%;
+}
+.info img{
+	margin-top: 20px;
+	height: 120px;
+	width: 100%;
+	vertical-align: middle;
+}
+.info .name{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	color: #009be1;
+	margin-top: 30px;	
+}
+.info .old_price, .info .new_price{
+	display: inline-block;
+}
+.info .price{
+	margin-top: 20px;	
+	font-size: 17px;
+}
+.old_price{
+	position: relative;
+	font-size: 14px;
+}
+.new_price{
+	font-size: 14px;
+}
+.new_price strong{
+	font-size: 17px;	
+}
+.price .old_price:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	border-bottom: 2px solid #000;
+	bottom: 35%;
+}
+.info .button{
+	width: 70%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #000;
+	background-color: #f0e524;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.info .button__arivesoon{
+	line-height: inherit;
+	padding-top: 3%;
+	color: #fff;
+	font-size: 16px;
+	background-color: #cc3399;
+}
+.button:hover{
+	color: #f0e524;
+	background-color: #000;
+}
+.sticker{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	text-transform: uppercase;
+	background-color: #86b022;
+	position: absolute;
+	text-align: center;
+	right: 10px;
+	top: -35px;
+	border: 3px solid white;
+}
+.sticker p{
+	padding-top: 40%;
+	font-size: 0.7em;
+	color: #fff;
+}
+.sticker__hit{
+	background-color: #009de1;
+}
+.sticker__hit p{
+	padding-top: 28%;
+	font-size: 0.7em;
+	color: #fff;
+}
+
