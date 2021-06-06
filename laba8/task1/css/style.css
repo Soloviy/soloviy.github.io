@@ -1,0 +1,234 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+
+/* General */
+
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+html{
+	scroll-behavior: smooth; 
+}
+.container{
+	max-width: 865px;
+	margin: 0 auto;
+}
+.button, .subscribe-form button{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom right, #df0408, #fe346b);
+}
+#tour h2,#gallery h2,#subscribe h2{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+
+/* Header */
+
+header{
+	width:100%;
+	height: 430px;
+	background-image:url('../img/bg-01.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.container h1{
+	padding-top: 140px;
+	font-size: 80px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Metal Mania';
+	color: #fff;
+}
+header .container .button{
+	display: block;
+	width: 287px;
+	height: 53px;
+	margin: 50px auto;
+	font-size: 20px;
+	line-height: 53px;	
+}
+#topbar{
+	width: 100%;
+	background-color:rgba(0,0,0,.5);
+	position: fixed;
+}
+.menu{
+	display: flex;
+}
+.menu li a{
+	display: block;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 49px;
+	padding: 0 15px;
+}
+
+.menu li a:hover{
+	background: linear-gradient(to bottom right, #df0408, #fe346b);
+}
+
+
+/* Tour */
+
+#tour{
+	width: 100%;
+    background-image:url('../img/bg.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    background-color:rgba(0,0,0,.8);
+    padding-bottom: 45px;
+}
+#tour h2{
+	padding: 35px 0;
+}
+#tour .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tour-card{
+	width: 200px;
+	height: 215px;
+	color: #fff;
+}
+.madrid{
+	background-image: linear-gradient(to top,rgba(0, 0, 0, .8), rgba(0, 0, 0, 0) ), url("../img/tour/madrid.jpg");
+}
+.hamburg{
+	background-image: linear-gradient(to top,rgba(0, 0, 0, .7), rgba(0, 0, 0, .4) ), url("../img/tour/hamburg.jpg");
+}
+.turin{
+	background-image: linear-gradient(to top,rgba(0, 0, 0, 1), rgba(0, 0, 0, .4) ), url("../img/tour/turin.jpg");
+}
+.krakow{
+	background-image: linear-gradient(to top,rgba(0, 0, 0, .7), rgba(0, 0, 0, .4) ), url("../img/tour/Krakow.jpg");
+}
+.tour-town{
+	margin: 35px 0 10px 10px;
+	text-transform: uppercase;
+}
+.tour-place{
+	margin-left: 10px;
+	margin-bottom: 10px; 
+}
+.tour-date{
+    margin-left: 10px;
+    font-size: 14px; 
+}
+.tour-card .button{
+	display: block;
+	width: 145px;
+	height: 35px;
+	margin: 15px auto;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+/* Gallery */
+
+#gallery{
+	width: 100%;
+    background-image:url('../img/bg.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    background-color:rgba(0,0,0,.8);
+    padding-bottom: 45px;
+}
+#gallery h2{
+	padding-bottom: 35px;
+}
+#gallery .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.photo{
+	margin: 8px;
+}
+.photo a img{
+	width: 271px;
+	height: auto;
+}
+
+/* Subscribe */
+
+#subscribe{
+	width: 100%;
+	background-image: url("../img/bg-02.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-color:rgba(0,0,0,.3);
+  	background-position: 0 -330px;
+	text-align: center;
+
+}
+#subscribe h2{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.pitch p{
+	font-size: 15px;
+	color: #fff;
+}
+.subscribe-form{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+.subscribe-form input{
+	width: 210px;
+	height: 38px;
+}
+.subscribe-form button{
+	width: 125px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+/* Footer */
+
+footer{
+	width: 100%;
+    background-image:url('../img/bg.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    background-color:rgba(0,0,0,.9);
+}
+.social{
+	text-align: center;
+	padding-top: 25px;
+}
+.social a{
+	color: #fff;
+	margin: 5px;
+}
+.copyright{
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}

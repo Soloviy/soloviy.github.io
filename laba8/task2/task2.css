@@ -1,0 +1,35 @@
+.social{
+	width: 500px;
+	height: 100px;
+	border: 1px  solid #000;
+	margin: 50px auto;	
+	text-align: center;
+}
+.soc-button{
+	background: url(sprite.png) no-repeat;
+	display: inline-block;
+	width: 100px; 
+	height: 100px;  
+	margin: 0 5px;
+}
+.tw{
+	background-position: -105px 0px;
+}
+.yt{
+	background-position: -210px 0px;
+}
+.insta{
+	background-position: -315px 0px;
+}
+.fb:hover{
+	background-position: 0px -110px;
+}
+.tw:hover{
+	background-position: -105px -110px;
+}
+.yt:hover{
+	background-position: -210px -110px;
+}
+.insta:hover{
+	background-position: -315px -110px;
+}
