@@ -1,0 +1,336 @@
+@import url('http://fonts.cdnfonts.com/css/segoe-wp-n');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.main_wrap{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+header {
+    background: url("images/header_background.png") no-repeat center;
+}
+.logo{
+	margin-left: 50px;
+	font-size: 119px;
+	line-height: 195px;
+	color: #949494;
+	font-style: italic;
+	font-family: "Mrs Eaves Italic";
+	text-align: left;
+}
+.nav .nav-item{
+	list-style: none;
+	float: right;
+}
+.nav .nav-item a{
+	padding: 23px;
+	line-height: 123px;
+	font-size: 23px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Segoe WP N", sans-serif;
+}
+.header-content{
+	width: 100%;
+	display: flex;
+}
+.coffee-image{
+	position: relative;
+	bottom: -60px;
+	left: 86px;
+}
+.header-text{
+	margin-left: 16%;
+	margin-top: 70px;
+}
+.header-text p{
+	line-height: 57px;
+	font-size: 65px;
+	color: #ffffff;
+	font-weight: 650;
+	font-family: "Segoe WP N", sans-serif;
+	margin-bottom: 27px;
+}
+.header-text strong{
+	font-size: 42px;
+	font-weight: normal;
+}
+.header-text .button-demo{
+	padding: 5px 20px;
+	background-color: #286d4d;
+	border: 4px solid rgba(0,0,0,0.37);
+	font-size: 23px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+}
+header .container{
+	position: relative;
+}
+header .container:after, header .container:before{
+	content: "\f138";
+	font-family: FontAwesome;
+	font-size: 40px;
+	color: #949494;
+	position: absolute;
+	bottom: 175px;
+	right: -30px;
+	cursor: pointer;
+}
+header .container:before{
+	content: "\f137";
+	font-family: FontAwesome;
+	left: -30px;
+}
+.category{
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+.category .container{
+	display: flex;
+}
+.button{
+	width: 25%;
+	height: 300px;
+	border-radius: 2px;
+	border: 1px solid #949494;
+	font-size: 27px;
+	background-color: transparent;
+	color: #5c5b5b;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+	padding-top: 150px;
+	cursor: pointer;
+}
+.image-button1{
+	background: #ccc url('images/category1.png') no-repeat top center;
+	background-position: center 25px;
+}
+.image-button2{
+	background: #ccc url('images/category2.png') no-repeat top center;
+	background-position: center 25px;
+}
+.image-button3{
+	background: #ccc url('images/category3.png') no-repeat top center;
+	background-position: center 25px;
+}
+.image-button4{
+	background: #ccc url('images/category4.png') no-repeat top center;
+	background-position: center 25px;
+}
+.container2{
+	margin: 0 auto;
+	max-width: 1024px;
+}
+.category-item{
+	border-radius: 2px;
+	border: 1px solid #949494;
+	background-color: #ffffff;
+	border-top: 1px solid #ffffff;
+}
+.category-image{
+	text-align: center;
+	margin-top: 55px;
+}
+.category-content{
+	margin: 0 55px;
+	margin-bottom: 70px;
+}
+.category-content span, .statistic-content span{
+	display: block;
+	font-size: 39px;
+	color: #4f4f4f;
+	font-family: "Segoe WP N";
+}
+.category-content p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #818181;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+}
+.category-content p, .category-content span{
+	margin-bottom: 27px;
+}
+.button:hover{
+	background-color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.statistic .container{
+	margin-bottom: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.statistic-image, .statistic-content{
+	margin: 0 auto;
+}
+.statistic-content span{
+	margin-bottom: 25px;
+	margin-left: -1em;
+}
+.list{
+	list-style: none;
+}
+.list .list-item{
+	font-size: 16px;
+	line-height: 38px;
+	color: #8a8888;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+}
+.list .list-item:before{
+	content: "\f058";
+	font-family: FontAwesome;
+	color: #e67624;
+	display: inline-block;
+	margin-left: -2em;
+	width: 2em;
+}
+
+.forms{
+	border-top: 1px solid #949494;
+	margin-bottom: 35px;
+}
+.form{
+	width: 470px;
+	height: 110px;
+	border-radius: 4px;
+	padding: 0 15px 0 27px;
+}
+.forms .container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 22px;
+}
+.form-login{
+	background-color: #e67624;
+}
+.form-subscribe{
+	background-color: #01d4f3;
+}
+.form-text{
+	font-size: 25px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.form .username, .form .password, .form .email{
+	width: 155px;
+	height: 26px;
+	background-color: #e8e8e8;
+	border: none;
+	font-size: 16px;
+	line-height: 38px;
+	color: #4f4f4f;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+	padding-left: 10px;
+}
+.form .submit, .form .subscribe{
+	width: 94px;
+	height: 30px;
+	background-color: #444444;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+}
+.form-tools{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.form .email{
+	width: 265px;
+	height: 25px;
+}
+.form .subscribe{
+	width: 111px;
+	height: 30px;
+	background-color: #029bb1;
+}
+
+footer{
+	background: url("images/footer.png") no-repeat center;
+}
+footer .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px 0 33px 0;
+}
+.footer-item p{
+	font-size: 22px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Segoe WP N";
+	margin-bottom: 15px;
+}
+.footer-about{
+	list-style: none;
+}
+.footer-about a{
+	font-size: 13px;
+	line-height: 22px;
+	color: #919191;
+	font-family: "Arial";
+	padding-bottom: 5px;
+}
+.footer-item .logo{
+	font-size: 100px;
+	line-height: 153px;
+	font-weight: normal;
+	color: #919191;
+}
+.footer-item span{
+	font-size: 13px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: "Arial";
+	padding-left: 50px;
+}
+
+footer .item3{
+	position: relative;
+}
+
+footer .item3:before, footer .item3:after{
+	content: "\f137";
+	font-family: FontAwesome;
+	font-size: 20px;
+	color: #949494;
+	position: absolute;
+	cursor: pointer;
+	top:12px;
+	right:-10px;
+}
+footer .item3:after{
+	content: "\f138";
+	font-family: FontAwesome;
+	right:-40px;
+}
+
+
+
+
+
+
